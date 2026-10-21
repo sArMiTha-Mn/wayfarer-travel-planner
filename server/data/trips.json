@@ -1,0 +1,211 @@
+[
+  {
+    "id": "trip-tokyo-demo",
+    "destination": "Tokyo, Japan",
+    "country": "Japan",
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-15",
+    "totalDays": 5,
+    "travelers": "couple",
+    "groupSize": 2,
+    "budget": "comfort",
+    "currency": "USD",
+    "pace": "balanced",
+    "accommodation": "boutique",
+    "interests": ["Culinary", "Culture", "Photography", "Shopping"],
+    "notes": "Interested in hidden cocktail bars and artisanal coffee.",
+    "createdAt": "2026-10-21T18:00:00.000Z",
+    "heroImage": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=1200&q=80",
+    "destinationOverview": {
+      "bestSeason": "Mar–May & Sep–Nov",
+      "currency": "JPY",
+      "transitTips": "Use digital Suica / Pasmo card. The Yamanote Line is your best friend.",
+      "weatherSummary": "Autumn foliage season, mild and crisp (14–19°C)."
+    },
+    "budgetBreakdown": {
+      "accommodation": 1240,
+      "foodAndDining": 680,
+      "activitiesAndEntry": 260,
+      "transport": 140,
+      "buffer": 180,
+      "totalEstimated": 2500
+    },
+    "recommendedHotels": [
+      { "name": "Trunk Hotel Cat Street", "type": "Boutique", "area": "Shibuya", "pricePerNight": 248, "rating": 4.9 },
+      { "name": "Hotel Gracery Shinjuku", "type": "Hotel", "area": "Shinjuku", "pricePerNight": 140, "rating": 4.6 },
+      { "name": "Aman Tokyo", "type": "Luxury", "area": "Otemachi", "pricePerNight": 950, "rating": 5.0 }
+    ],
+    "recommendedRestaurants": [
+      { "name": "Afuri Harajuku", "type": "Ramen", "dish": "Yuzu Shio Ramen", "priceRange": "$" },
+      { "name": "Gonpachi Nishi-Azabu", "type": "Izakaya", "dish": "Charcoal Yakitori & Sake", "priceRange": "$$" },
+      { "name": "Sushi Sawada", "type": "Omakase", "dish": "Chef's Nigiri Selection", "priceRange": "$$$$" }
+    ],
+    "days": [
+      {
+        "dayNumber": 1,
+        "date": "2026-11-10",
+        "theme": "Historic Asakusa & Sumida Riverside",
+        "activities": [
+          {
+            "id": "act-1",
+            "timeSlot": "Morning",
+            "time": "09:00 AM",
+            "title": "Sensō-ji Temple & Nakamise-dori",
+            "category": "Sightseeing",
+            "location": "Asakusa",
+            "cost": 0,
+            "description": "Walk beneath the giant red Kaminarimon lantern and explore Tokyo's oldest Buddhist temple. Browse traditional artisan stalls along Nakamise street.",
+            "tip": "Arrive before 9 AM for peaceful photos before the crowds arrive.",
+            "completed": false
+          },
+          {
+            "id": "act-2",
+            "timeSlot": "Lunch",
+            "time": "12:30 PM",
+            "title": "Edomae Tempura at Daikokuya",
+            "category": "Dining",
+            "location": "Asakusa",
+            "cost": 22,
+            "description": "Savor authentic sesame-fried tempura tendon bowl served in a historic tatami dining room operating since 1887.",
+            "tip": "Order the classic Ebi tendon with dark savory tare sauce.",
+            "completed": false
+          },
+          {
+            "id": "act-3",
+            "timeSlot": "Afternoon",
+            "time": "02:30 PM",
+            "title": "Sumida River Cruise to Hamarikyu Gardens",
+            "category": "Experience",
+            "location": "Sumida River to Shiodome",
+            "cost": 15,
+            "description": "Board the futuristic glass water bus downriver. Disembark inside the serene 17th-century Edo shogun tidal gardens.",
+            "tip": "Stop at the island teahouse for matcha and seasonal wagashi sweets.",
+            "completed": false
+          },
+          {
+            "id": "act-4",
+            "timeSlot": "Evening",
+            "time": "07:00 PM",
+            "title": "Omoide Yokocho (Memory Lane) & Yakitori",
+            "category": "Dining",
+            "location": "Shinjuku",
+            "cost": 35,
+            "description": "Atmospheric lantern-lit alleyways next to Shinjuku station packed with tiny 6-seat izakayas grilling fresh skewers over binchotan charcoal.",
+            "tip": "Pair chicken tsukune meatballs with Japanese draft beer or highball.",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 2,
+        "date": "2026-11-11",
+        "theme": "Modern Pop Culture & Shibuya Energy",
+        "activities": [
+          {
+            "id": "act-5",
+            "timeSlot": "Morning",
+            "time": "09:30 AM",
+            "title": "Meiji Jingu Shrine & Forest Walk",
+            "category": "Sightseeing",
+            "location": "Harajuku",
+            "cost": 0,
+            "description": "Pass through towering 12-meter cypress Torii gates into a tranquil 170-acre sacred evergreen forest in the heart of Tokyo.",
+            "tip": "Write a wooden Ema prayer board at the main courtyard.",
+            "completed": false
+          },
+          {
+            "id": "act-6",
+            "timeSlot": "Lunch",
+            "time": "12:45 PM",
+            "title": "Harajuku Backstreet Gyukatsu",
+            "category": "Dining",
+            "location": "Jingumae",
+            "cost": 20,
+            "description": "Crisp panko-crusted rare beef cutlet that you sear to your own liking on a personal mini stone grill.",
+            "tip": "Dip in freshly grated wasabi and rock salt.",
+            "completed": false
+          },
+          {
+            "id": "act-7",
+            "timeSlot": "Afternoon",
+            "time": "03:00 PM",
+            "title": "Cat Street Boutique Crawl & Coffee",
+            "category": "Shopping",
+            "location": "Harajuku to Shibuya",
+            "cost": 8,
+            "description": "Stroll down the pedestrianized Cat Street lined with indie fashion designers, specialty coffee roasters, and lifestyle concept stores.",
+            "tip": "Grab a hand-poured single-origin filter coffee at Roastery by Nozy.",
+            "completed": false
+          },
+          {
+            "id": "act-8",
+            "timeSlot": "Evening",
+            "time": "06:30 PM",
+            "title": "Shibuya Sky Observation Deck at Sunset",
+            "category": "Experience",
+            "location": "Shibuya",
+            "cost": 22,
+            "description": "Ascend 229 meters to an open-air 360-degree rooftop deck with jaw-dropping views of Shibuya Crossing, Tokyo Tower, and Mount Fuji on clear days.",
+            "tip": "Pre-book tickets 4 weeks ahead for the 5:00 PM golden hour entry slot.",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "dayNumber": 3,
+        "date": "2026-11-12",
+        "theme": "Culinary Tsukiji, Ginza Elegance & teamLab",
+        "activities": [
+          {
+            "id": "act-9",
+            "timeSlot": "Morning",
+            "time": "08:30 AM",
+            "title": "Tsukiji Outer Market Tasting Tour",
+            "category": "Dining",
+            "location": "Tsukiji",
+            "cost": 25,
+            "description": "Graze through bustling food stalls offering sweet rolled tamagoyaki omelettes, fresh sea urchin, wagyu skewers, and strawberry daifuku.",
+            "tip": "Cash is king here — have small yen coins and bills ready.",
+            "completed": false
+          },
+          {
+            "id": "act-10",
+            "timeSlot": "Lunch",
+            "time": "12:30 PM",
+            "title": "Artisanal Soba in Ginza",
+            "category": "Dining",
+            "location": "Ginza",
+            "cost": 24,
+            "description": "Handmade 100% buckwheat noodles dipped in cold dashi tsuyu sauce with seasonal duck and leek.",
+            "tip": "Drink the warm sobayu broth mixed with leftover dip at the end.",
+            "completed": false
+          },
+          {
+            "id": "act-11",
+            "timeSlot": "Afternoon",
+            "time": "02:30 PM",
+            "title": "teamLab Planets Immersive Digital Art",
+            "category": "Experience",
+            "location": "Toyosu",
+            "cost": 30,
+            "description": "Wade barefoot through water and mirror rooms filled with floating orchids and infinite illuminated crystal universes.",
+            "tip": "Wear pants that can be easily rolled up to the knees.",
+            "completed": false
+          },
+          {
+            "id": "act-12",
+            "timeSlot": "Evening",
+            "time": "07:30 PM",
+            "title": "Speakeasy Cocktail Bar Crawl",
+            "category": "Experience",
+            "location": "Ginza / Ebisu",
+            "cost": 45,
+            "description": "Experience Japan's meticulous cocktail culture with hand-carved ice spheres and seasonal Japanese botanicals.",
+            "tip": "Dress smart-casual as many Ginza cocktail lounges observe dress codes.",
+            "completed": false
+          }
+        ]
+      }
+    ]
+  }
+]

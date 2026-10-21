@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #fdfbf7;
+    color: #14232c;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f7f4ed;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1c7b7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b5a894;
+}
+
+/* Print styling for printing or saving itinerary as PDF */
+@media print {
+  .no-print, header, nav, footer, .action-buttons {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .print-card {
+    box-shadow: none !important;
+    border: 1px solid #e2e8f0 !important;
+    break-inside: avoid;
+    margin-bottom: 1.5rem !important;
+  }
+  .page-break {
+    page-break-before: always;
+  }
+}
